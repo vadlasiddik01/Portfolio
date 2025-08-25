@@ -1021,7 +1021,9 @@ noscript {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    position: relative
+    position: relative;    
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .dp::before {
@@ -1562,17 +1564,29 @@ footer {
     html {
         font-size: 60%
     }
+    .dp{
+        margin-top: 15%;
+    margin-left: 50px;
+    }
 }
 
 @media screen and (max-width:1400px) {
     html {
         font-size: 60%
     }
+    .dp{
+        margin-top: 15%;
+    margin-left: 50px;
+    }
 }
 
 @media screen and (max-width:1200px) {
     html {
         font-size: 60%
+    }
+    .dp{
+        margin-top: 15%;
+    margin-left: 50px;
     }
 
     .projects-section-div,
@@ -1598,6 +1612,10 @@ footer {
 @media screen and (max-width:1150px) {
     html {
         font-size: 60%
+    }
+    .dp{
+        margin-top: 15%;
+    margin-left: 50px;
     }
 }
 
